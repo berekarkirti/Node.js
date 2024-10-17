@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import "./Add.css";
+import "../style/Add.css";
 
 const initialstate={
     title:"",   
@@ -38,56 +38,27 @@ const [formdata,setformdata]=useState(initialstate)
             <form className="add-product" onSubmit={(e)=>handlesubmit(e)}>
                 <div className="form">
                     <label className="add-label">Product Name:</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="title"
-                        value={title}
-                        onChange={(e)=>handlechange(e)}
-                        required
+                    <input type="text" id="name" name="title" value={title} onChange={(e)=>handlechange(e)} required
                     />
                 </div>
                 <div className="form-group">
                     <label className="add-label">Price:</label>
-                    <input
-                        type="text"
-                        id="price"
-                        name="price"
-                        value={price}
-                        onChange={(e)=>handlechange(e)}
-                        required
+                    <input type="text" id="price" name="price" value={price} onChange={(e)=>handlechange(e)} required
                     />
                 </div>
                 <div className="form-group">
                     <label className="add-label">Category:</label>
-                    <input
-                        type="text"
-                        id="Category"
-                        name="category"
-                        value={category}
-                        onChange={(e)=>handlechange(e)}
-                        required
+                    <input type="text" id="Category" name="category" value={category} onChange={(e)=>handlechange(e)} required
                     />
                 </div>
                 <div className="form-group">
                     <label className="add-label">Description:</label>
-                    <textarea
-                        id="description"
-                        name="description"
-                        value={description}
-                        onChange={(e)=>handlechange(e)}
-                        required
+                    <textarea id="description" name="description" value={description} onChange={(e)=>handlechange(e)} required
                     />
                 </div>
                 <div className="form-group">
                     <label className="add-label">Image URL:</label>
-                    <input
-                        type="text"
-                        id="imageUrl"
-                        name="image"
-                        value={image}
-                        onChange={(e)=>handlechange(e)}
-                        required
+                    <input type="text" id="imageUrl" name="image" value={image} onChange={(e)=>handlechange(e)} required
                     />
                 </div>
 
