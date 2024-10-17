@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import "./Update.css";
 
@@ -14,10 +14,11 @@ const initialState = {
 const Update = () => {
     const { id } = useParams();
     const [formData, setFormData] = useState(initialState);
-
+    
     const getSingleData = () => {
-        axios.get(`http://localhost:8081/getproduct/${id}`)
+        axios.get(`http://localhost:8081/product/${id}`)
             .then((res) => {
+                console.log(res)
                 setFormData(res.data);
             })
             .catch((err) => {
@@ -25,6 +26,9 @@ const Update = () => {
             });
     };
 
+    useEffect(()=>{
+        getSingleData();
+    },[])
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };

@@ -24,13 +24,12 @@ const [formdata,setformdata]=useState(initialstate)
         axios.post("http://localhost:8081/addproduct",formdata)
         .then((res)=>{
             alert("product added...!!!")
-            console.log(res)
+            console.log(res);
             res.send(res.data);
         })
         .catch((err)=>{
-            console.log(err)
+            console.log(err);
         })
-
 
     }
     return (
