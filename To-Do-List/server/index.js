@@ -108,8 +108,7 @@ app.post("/addproduct", (req, res) => {
                 if (err) {
                     res.send(err);
                 } else {
-                    res.send("product added ..!");
-                    res.send({ id: newProduct.id });
+                    res.send({ message: "product added ..!", id: newProduct.id });
                 }
             })
         }
