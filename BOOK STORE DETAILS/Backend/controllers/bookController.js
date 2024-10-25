@@ -27,16 +27,24 @@ const singledataController = async (req, res) => {
 
 // --------------------- add books ------------------------
 const createController = async (req, res) => {
-
     try {
+        const { ISBN } = req.body;
+        const existingBook = await bookModel.findOne({ ISBN });
+        
+        if (existingBook) 
+        {
+            return res.status(400).json({ message: "Book with this ISBN already exists!" });
+        }
         const book = new bookModel(req.body);
         await book.save();
-        res.status(201).json({ message: "Book Added Successfully !" });
+        res.status(200).json({ message: "Book Added Successfully!" });
+    } 
+    catch (error) 
+    {
+        console.error("Error adding book:", error);
+        res.status(400).json({ message: "Not Added!" });
     }
-    catch (error) {
-        res.status(400).json({ message: "Not Added !" });
-    }
-}
+};
 
 // --------------------- update books (err in this) ------------------------
 const updateController = async (req, res) => {
