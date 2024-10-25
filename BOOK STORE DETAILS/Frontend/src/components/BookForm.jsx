@@ -6,17 +6,16 @@ const BookForm = () => {
     const [book, setBook] = useState({})
 
     const handleSubmit = (e) => {
-
         e.preventDefault();
 
         axios.post("http://localhost:8081/books/create", book)
             .then(res => {
                 console.log(res.data);
-                alert("Book Added ")
+                alert("Book Added ");
             })
             .catch(err => {
                 console.log(err);
-            })
+            });
     };
 
     const handleChange = (e) => {
@@ -25,7 +24,7 @@ const BookForm = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            
+
             <h3>Book Add</h3>
 
             <label>Book Title:</label>
@@ -39,6 +38,10 @@ const BookForm = () => {
 
             <label>Description</label>
             <textarea name="Description" onChange={handleChange} />
+
+            <label>ISBN:</label>
+            <input type="text" name="ISBN" onChange={handleChange} />
+
 
             <button type="submit">Add Book</button>
 
