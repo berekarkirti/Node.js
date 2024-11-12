@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
             }
             else {
                 const userdatafromdb = JSON.parse(user)
-                console.log(user)
+                console.log(user);
                 res.end(JSON.stringify(userdatafromdb.user))
             }
         })
@@ -44,8 +44,8 @@ const server = http.createServer((req, res) => {
     }
 })
 
-server.listen(8080, () => {
-    console.log("server is running at 8080")
+server.listen(8081, () => {
+    console.log("server is running at 8080");
 })
 
 // http://localhost:8080
