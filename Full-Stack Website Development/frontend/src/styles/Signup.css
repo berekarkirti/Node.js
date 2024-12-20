@@ -1,0 +1,36 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 55%;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #0056b3;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-success {
+    width: 100%;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  

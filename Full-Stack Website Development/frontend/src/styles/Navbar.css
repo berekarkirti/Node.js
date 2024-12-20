@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+  color: #ffffff !important;
+  transition: all ease-in-out (0.8);
+}
+.navbar-text {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.navbar .btn {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.navbar .btn:hover {
+  transform: scale(1.05);
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar .btn {
+    width: 100%;
+  }
+}
+
+/* Add Space Around Links and Buttons */
+.navbar .container-fluid {
+  padding: 0 1rem;
+}a
+
+/* Collapse Icon Styling */
+.navbar-toggler {
+  border: none;
+  background: transparent;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}

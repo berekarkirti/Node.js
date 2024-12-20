@@ -1,0 +1,274 @@
+Email: vishal@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: vishal@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: dk@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: berekarkirti11@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: vishal@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: vishal@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: dk@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: kuku@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: kuku@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: durva@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: jeet@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: my@gmail.com,
+Role: Admin, 
+Method: POST, 
+URL: /signup
+
+Email: my@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: rakesh@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: rakesh@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: rakesh@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: rakesh@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: rakesh@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /signup
+
+Email: rakesh@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: vb@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
