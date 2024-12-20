@@ -50,7 +50,6 @@ const Users = () => {
             <h2>{user.name}</h2>
             <p><b>Id:</b> {user._id}</p>
             <p><b>Email:</b> {user.email}</p>
-            <p><b>Date of birth:</b> {user.dob}</p>
             <p><b>Role:</b> {user.role}</p>
             <p><b>Location:</b> {user.location}</p>
             <div className="user-actions">
