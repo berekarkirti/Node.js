@@ -272,3 +272,28 @@ Email: jeet@gmail.com,
 Role: user, 
 Method: POST, 
 URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: mayur@gmail.com,
+Role: Admin, 
+Method: POST, 
+URL: /signup
+
+Email: mayur@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: jeet@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
+
+Email: mayur@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login
