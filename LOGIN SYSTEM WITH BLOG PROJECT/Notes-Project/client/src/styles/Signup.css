@@ -1,0 +1,111 @@
+.SignUp-section{
+   min-height: 100vh;
+   background: linear-gradient(135deg, #8e44ad, #1abc9c) !important;
+}
+
+.card{
+   margin-top: 15%;
+}
+
+.py-md-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.container-lg {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2.font-weight-bold {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: teal !important;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px rgba(142, 68, 173, 0.5), 0 0 15px rgba(26, 188, 156, 0.5);
+    border-color: #8e44ad;
+    outline: none;
+}
+
+.form-label {
+    color: teal;
+}
+
+button {
+    background: linear-gradient(135deg, #8e44ad, #1abc9c);
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+button.btn-primary:hover {
+    background-color: #1abc9c;
+}
+
+.text-center small {
+    color: teal !important;
+}
+
+.text-center small .signup {
+    color: teal !important;
+}
+
+.text-center small {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 991.98px) {
+    .col-lg-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 2rem;
+    }
+
+    h1.ls-tight {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .py-md-32 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    h1.ls-tight {
+        font-size: 1.75rem;
+    }
+
+    p.lead {
+        font-size: 1rem;
+    }
+}

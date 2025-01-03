@@ -1,0 +1,82 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #8e44ad, #1abc9c);
+}
+
+.container-signin {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: teal; 
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px rgba(142, 68, 173, 0.5), 0 0 15px rgba(26, 188, 156, 0.5);
+    border-color: #8e44ad; 
+    outline: none;
+}
+
+.form-label {
+    font-size: 1rem;
+    color: teal; 
+    font-weight: 500;
+}
+
+button {
+    background: linear-gradient(135deg, #8e44ad, #1abc9c);
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #1abc9c; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .form-control {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}

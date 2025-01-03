@@ -1,0 +1,9 @@
+.illustration-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.svg-illustration {
+    max-width: 100%;
+    height: auto;
+}

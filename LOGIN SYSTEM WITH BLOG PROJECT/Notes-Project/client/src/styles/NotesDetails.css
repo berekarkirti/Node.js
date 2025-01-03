@@ -1,0 +1,59 @@
+#NotesDetails {
+    background: linear-gradient(135deg, #8e44ad, #1abc9c);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #NotesDetails .text-center {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #NotesDetails img {
+    border-radius: 10px;
+    border: 4px solid #8e44ad;
+    object-fit: cover;
+  }
+  
+  #NotesDetails h2 {
+    color: #8e44ad; 
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #NotesDetails .text-muted {
+    color: #8d44ad7f !important;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #NotesDetails .blog-content {
+    text-align: justify;
+    color: #8e44ad;
+    line-height: 1.8;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  #NotesDetails .blog-content p {
+    margin-bottom: 10px;
+  }
+  
+  #NotesDetails .btn {
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #NotesDetails .btn:hover {
+    background-color: #1abc9c;
+    color: #ffffff;
+    transform: scale(1.05);
+  }
+  
