@@ -1,0 +1,86 @@
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #333;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 2%;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  color: teal;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-item .nav-link {
+  color: #333;
+  font-size: 0.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item .nav-link:hover {
+  color: teal;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu a {
+  color: #333;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-menu a:hover {
+  background-color: teal;
+  color: white;
+}
+
+img.rounded-circle {
+  border: 2px solid teal;
+  transition: transform 0.3s ease-in-out;
+}
+
+img.rounded-circle:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar-toggler {
+    background-color: teal;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+}
