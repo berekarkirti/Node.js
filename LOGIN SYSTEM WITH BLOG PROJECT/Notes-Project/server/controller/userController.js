@@ -100,7 +100,7 @@ const signin = async (req, res) => {
         }
         else 
         {
-            return res(400).json({ message: "Incorect password" });
+            return res.status(400).json({ message: "Incorect password" });
         }
     })
 

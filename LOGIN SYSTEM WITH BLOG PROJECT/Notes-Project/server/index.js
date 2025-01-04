@@ -35,6 +35,11 @@ app.use("/user", userRouter)
 // NotesRouter:-
 app.use("/notes", notesRouter)
 
+app.get('/logout', (req, res) => {
+    res.clearCookie('token'); 
+    res.status(200).json({ message: 'Logged out successfully' });
+});
+
 // Server:-
 app.listen(process.env.PORT || 3000, async () => {
     try {
