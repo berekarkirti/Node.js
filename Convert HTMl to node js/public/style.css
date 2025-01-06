@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  border-radius: none;
+  background-color: #f9f9dc56 !important;
+}
+
+header {
+  background-color: #400040;
+  color: #F9F9DC;
+  padding: 30px 10px;
+  text-align: center;
+  box-shadow: 0 6px 12px #40004077;
+  margin-bottom: 150px;
+}
+
+header nav a {
+  color: #F9F9DC;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}

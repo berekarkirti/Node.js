@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Html To Node</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9dc56;
+      color: #F9F9DC;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      color: #400040;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    p {
+      max-width: 900px;
+      margin: 0 auto 20px auto;
+      line-height: 1.8;
+      font-size: 18px;
+      color: #400040;
+      box-shadow: 0 6px 12px #40004077;
+      border: 3px solid #400040;
+      text-align: justify;
+      padding: 40px 70px;
+      background-color: #f9f9dc28;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      animation: fadeInUp 1.4s ease;
+    }
+
+    p:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 40px;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+      opacity: 0.9;
+    }
+
+    button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #218838;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <%- include('head') %>
+
+    <h1>Welcome to Our Website</h1>
+    <p>Create a multi-page web application with a frontend using EJS (Embedded JavaScript) for templating and a backend
+      built with Node.js, Express, and MongoDB. The project should follow the MVC (Model-View-Controller) architecture.
+    </p>
+</body>
+
+</html>

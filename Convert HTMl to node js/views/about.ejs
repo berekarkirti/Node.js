@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Html To Node</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9dc56;
+      color: #400040;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #400040;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 42px;
+      color: #400040;
+      margin-bottom: 30px;
+    }
+
+    p {
+      max-width: 900px;
+      margin: 0 auto 20px auto;
+      line-height: 1.8;
+      font-size: 18px;
+      color: #400040;
+      box-shadow: 0 6px 12px #40004077;
+      text-align: justify;
+      padding: 40px 70px;
+      background-color: #f9f9dc28;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      animation: fadeInUp 1.4s ease;
+    }
+
+    p:hover {
+      transform: scale(1.02);
+    }
+
+    h4 {
+      font-size: 22px;
+      color: #F9F9DC;
+      margin: 15px 0;
+      padding: 10px;
+      background-color: #570057;
+      border-left: 5px solid #afaf92;
+      border-radius: 5px;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Footer styling */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      h4 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <%- include('head') %>
+
+    <main>
+      <h1>About Us</h1>
+      <p>Welcome to [Your Website Name], where we are committed to delivering a seamless user experience through dynamic
+        content and personalized services. Our platform offers a variety of features, including a detailed Product
+        Catalog linked directly to our database, allowing you to explore our diverse range of products effortlessly.</p>
+
+      <h4>1. Company/Project Background</h4>
+      <p>Details about the company or the purpose of the project. Here, you can share the vision and mission that drives
+        your organization.</p>
+
+      <h4>2. Product or Service Descriptions</h4>
+      <p>Information on the products or services offered. Highlight key offerings that set you apart from the
+        competition.</p>
+
+      <h4>3. Team Members</h4>
+      <p>Introduce the team behind the website. Share a bit about the members, their roles, and contributions.</p>
+
+      <h4>4. Technology Stack</h4>
+      <p>Technical details about the tools and frameworks used in development. Mention the technologies that power your
+        platform.</p>
+
+      <h4>5. User Guidance</h4>
+      <p>Instructions on how to navigate or use the website's features. Provide tips for users to get the most out of
+        your site.</p>
+    </main>
+
+    <footer>
+      &copy; 2024 [Your Website Name]. All rights reserved.
+    </footer>
+</body>
+
+</html>

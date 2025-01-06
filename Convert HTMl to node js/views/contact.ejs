@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Html To Node</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9dc56;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #400040;
+      margin-bottom: 20px;
+      font-size: 36px;
+    }
+
+    form {
+      background-color: #f9f9dc2f;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 6px 12px #40004077;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #400040;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: border 0.3s ease;
+    }
+
+    form input:focus,
+    form textarea:focus {
+      border: 1px solid #400040;
+    }
+
+    form button {
+      width: 100%;
+      padding: 15px;
+      background-color: #400040;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #400040;
+      transform: scale(1.05);
+    }
+
+    form textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <%- include('head') %>
+
+    <h1>Contact Us</h1>
+    <form action="/contact" method="POST">
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
