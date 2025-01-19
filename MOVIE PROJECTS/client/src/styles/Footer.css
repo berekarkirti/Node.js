@@ -1,0 +1,39 @@
+footer {
+    font-family: 'Arial', sans-serif;
+    padding-top: 1rem;
+  }
+  
+  .bg-body-tertiary {
+    background-color: #f8f9fa; 
+    color: teal;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-lg-start {
+    text-align: left;
+  }
+  
+  .p-3 {
+    padding: 10px 20px;
+  }
+  
+  .text-body {
+    color: teal !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .text-body:hover {
+    color: teal !important;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .text-lg-start {
+      text-align: center;
+    }
+  }
+  

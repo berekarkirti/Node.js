@@ -1,0 +1,147 @@
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-light {
+  background-color: transparent !important;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: teal !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid teal !important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 8px rgba(142, 68, 173, 0.5),
+    0 0 15px rgba(26, 188, 156, 0.5) !important;
+  border-color: #8e44ad;
+  outline: none;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffcc00;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #1abc9c;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.nav-item.dropdown .dropdown-menu .dropdown-header {
+  color: #ffcc00;
+}
+
+.navbar-nav .nav-item .dropdown-item {
+  color: #ffcc00;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .dropdown-item:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.navbar-nav .nav-item .btn {
+  background-color: transparent;
+  color: #1abc9c;
+  border: 2px solid #1abc9c;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease-in-out;
+} */
+
+.navbar-nav .nav-item .btn:hover {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #333;
+}
+
+.conditional{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+list-style: none;
+gap: 30px;
+
+}
+
+#nav-sign{
+  background:linear-gradient(135deg, #8e44ad, #1abc9c);
+  color: white;
+  transition: all ease-in-out 0.8s;
+}
+
+#nav-sign:hover{
+  background:linear-gradient(135deg, #72378b, #139178);
+}
+
+.navbar-text{
+  font-size: 20px;
+  font-weight: 600;
+  color: #008080;
+}
+
+.dropdown-item{
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.dropdown-item:hover{
+  background:linear-gradient(135deg, #8e44ad, #1abc9c);
+  color: white;
+}
+
+#deletehu{
+  background-color: #ffff;
+}
+
+#deletehu:hover{
+  background:linear-gradient(135deg, #8e44ad, #1abc9c);
+  color: white;
+}
+
+
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .form-control {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 1rem;
+  }
+} 
+
+

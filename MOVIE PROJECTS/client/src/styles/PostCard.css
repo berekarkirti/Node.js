@@ -1,0 +1,26 @@
+.card
+{
+    border: 2.8px solid #8e44ad;
+    padding: 3px 3px ;
+}
+
+.btn
+{
+    border: 2.5px #8e44ad;
+    transition: all ease-in-out 0.8s;
+    color: rgb(252, 252, 252);
+    font-weight: 500;
+}
+
+.btn:hover
+{
+    background: linear-gradient(135deg, #8937ac, #149b80);
+    color: white;
+} 
+
+.card-title
+{
+    font-size: 21px;
+    font-weight: 500;
+    color: #8e44ad;
+}
